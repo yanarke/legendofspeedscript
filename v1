@@ -200,7 +200,7 @@ task.spawn(function()
             orbEvent:FireServer("collectOrb", "Yellow Orb", "City")
             orbEvent:FireServer("collectOrb", "Green Orb", "City")
         end
-        task.wait(0.001)
+        task.wait(0.00001)
     end
 end)
 
