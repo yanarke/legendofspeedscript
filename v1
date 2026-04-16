@@ -200,7 +200,7 @@ task.spawn(function()
             orbEvent:FireServer("collectOrb", "Yellow Orb", "City")
             orbEvent:FireServer("collectOrb", "Green Orb", "City")
         end
-        task.wait(0.00001)
+        task.wait(0.00000001)
     end
 end)
 
@@ -221,7 +221,7 @@ task.spawn(function()
         if autoGem then
             orbEvent:FireServer("collectOrb", "Gem", "City")
         end
-        task.wait(0.001)
+        task.wait(0.0000001)
     end
 end)
 
